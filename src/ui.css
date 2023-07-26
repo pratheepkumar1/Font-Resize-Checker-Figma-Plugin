@@ -1,0 +1,94 @@
+@import "figma-plugin-ds/dist/figma-plugin-ds.css";
+
+.main-container{
+padding: 16px 16px;
+/* display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start; */
+}
+
+.container{
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    /* flex-direction: row;
+    align-items: flex-start; */
+}
+
+.button-containter{
+  display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: row;
+    align-items: flex-start; */
+}
+
+/* Input Field Based */
+
+.input__field{
+  width: 80px !important;
+}
+
+.info-label{
+  font-size: var(--font-size-small);
+  font-family: var(--font-stack);
+  padding: 0px 8px;
+  color: var(--black8);
+}
+
+.action-items{
+  margin: 20px 0px;
+}
+
+h6{
+  padding-bottom: 0px;
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+  
+}
+
+
+
+/* Select Menu Based */
+
+.select-menu{
+  min-width: 120px;
+  border: 1px solid var(--black1) !important;
+  
+}
+
+.select-menu__button:hover {
+  border-color: transparent;
+}
+
+.button-item{
+  margin-right: 8px;
+}
+
+
+
+
+  .button--secondary, .button--secondary-destructive {
+    background-color: var(--white);
+    border: 2px solid var(--black8);
+    color: var(--black8);
+    padding: 0 calc(var(--size-xsmall)) 0 calc(var(--size-xsmall));
+    letter-spacing: var(--font-letter-spacing-pos-small);
+  }
+  
+.button--secondary:hover {
+  background-color: var(--black)8;
+  
+}
+
+  .button--secondary:enabled:active, .button--secondary-destructive:enabled:active, .button--secondary:enabled:focus, .button--secondary-destructive:enabled:focus {
+    border: 2px solid var(--black);
+    padding: 0 var(--size-xsmall) 0 var(--size-xsmall);
+  }
+  
+  .button--secondary:disabled, .button--secondary-destructive:disabled {
+    border: 1px solid var(--black3);
+    color: var(--black3);
+  }

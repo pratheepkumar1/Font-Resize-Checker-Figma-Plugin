@@ -1,0 +1,29 @@
+{
+  "name": "font-resizer---accessibility-checker",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npx webpack --mode=development --watch",
+    "prod": "npx webpack --mode=production"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.16.1",
+    "css-loader": "^4.3.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "figma-plugin-ds": "^0.1.8",
+    "npx": "^10.2.2"
+  }
+}
